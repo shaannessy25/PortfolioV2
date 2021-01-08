@@ -1,19 +1,18 @@
-.container {
-  margin-top: 10px;
-}
 
 .logo {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 1px solid lightcyan;
+  border: 2px solid #7df9ff;
+  background-color: transparent;
 }
 
 .circle1 {
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  border: 0.8px solid red;
+  background-color: #7df9ff;
+  border: 0.8px solid #1B2CC1;
   transform: translate(23px, 25px);
 }
 
@@ -21,7 +20,8 @@
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  border: 0.8px solid red;
+  border: 0.8px solid #1B2CC1;
+  background-color: #7df9ff;
   transform: translate(18px, 20px);
 }
 
@@ -29,54 +29,48 @@
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  border: 0.8px solid red;
-  transform: translate(18px, 10px);
-}
-
-.circle3 {
-  width: 5px;
-  height: 5px;
-  border-radius: 100%;
-  border: 0.8px solid red;
-  transform: translate(18px, 10px);
+  border: 0.8px solid #1B2CC1;
+  background-color: #7df9ff;
+  transform: translate(18px, 9px);
 }
 
 .circle4 {
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  border: 0.8px solid red;
-  transform: translate(23px, 5px);
+  border: 0.8px solid #1B2CC1;
+  background-color: #7df9ff;
+  transform: translate(23px, 4px);
 }
 
 .square1 {
   width: 12px;
   height: 22px;
-  background-color: blue;
+  background-color: #7df9ff;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  transform: translate(8.5px, -17px) rotate(-35deg);
+  transform: translate(8px, -19px) rotate(-35deg);
 }
 
 .square2 {
   width: 12px;
   height: 22px;
-  background-color: blue;
+  background-color: #7df9ff;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  transform: translate(25.5px, -38.8px) rotate(35deg);
+  transform: translate(26px, -40.8px) rotate(35deg);
 }
 
 .square3{
     width: 12px;
     height: 20px;
-    background-color: blue;
+    background-color: #7df9ff;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    transform: translate(10px, -38px) rotate(30deg);
+    transform: translate(9px, -38px) rotate(35deg);
 }
 
 .square4{
     width: 12px;
-    height: 20px;
-    background-color: blue;
+    height: 19px;
+    background-color: #7df9ff;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    transform: translate(24.5px, -58px) rotate(-30deg);
+    transform: translate(25.5px, -58px) rotate(-35deg);
 }
