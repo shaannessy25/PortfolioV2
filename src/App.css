@@ -2,9 +2,10 @@
 
 
 .App {
-  margin: 2px;
   font-family: 'Montserrat', sans-serif;
-
+  height: 100vh;
+  /* background-image: url("https://images.cdn1.stockunlimited.net/preview1300/dark-blue-textured-background_1845103.jpg"); */
+  
 }
 
 h1 {
